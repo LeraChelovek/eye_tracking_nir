@@ -1,0 +1,35 @@
+<div class="container">
+    <main class="card thank-you-card">
+        <div class="thank-you-icon">🎉</div>
+        <h1 class="thank-you-title">Спасибо за участие!</h1>
+        
+        <div class="thank-you-message">
+            <p>Вы успешно прошли эксперимент.</p>
+            <p>Ваши данные сохранены и будут использованы для исследования.</p>
+        </div>
+
+        <div class="thank-you-stats">
+            <div class="stat-item">
+                <span class="stat-label">📊 Точек взгляда:</span>
+                <span class="stat-value" id="totalGazePoints">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">⏱️ Время прохождения:</span>
+                <span class="stat-value" id="totalDuration">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">📋 Заполнено форм:</span>
+                <span class="stat-value" id="totalForms">0</span>
+            </div>
+        </div>
+
+        <div class="thank-you-buttons">
+            <button id="downloadDataBtn" class="btn btn-primary">📥 Скачать данные (CSV)</button>
+            <button id="restartBtn" class="btn btn-secondary">🔄 Новый участник</button>
+        </div>
+
+        <p class="thank-you-footer">
+            Результаты эксперимента будут доступны после завершения исследования.
+        </p>
+    </main>
+</div>

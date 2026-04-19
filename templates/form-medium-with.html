@@ -1,0 +1,87 @@
+<div class="container">
+    <main class="card">
+        <h1 class="title">Анкета 4/6</h1>
+        
+        <div class="welcome-text">
+            <p>Пожалуйста, заполните форму ниже.</p>
+        </div>
+
+        <div class="progress-wrapper">
+            <div class="progress-text">
+                Заполнено: <span id="filledFields">0</span> / <span id="totalFields">10</span> полей
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="participant-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="lastNameWith" class="form-label">Фамилия</label>
+                    <input type="text" id="lastNameWith" name="lastName" class="form-input" 
+                           placeholder="Иванов">
+                </div>
+                <div class="form-group">
+                    <label for="firstNameWith" class="form-label">Имя</label>
+                    <input type="text" id="firstNameWith" name="firstName" class="form-input" 
+                           placeholder="Иван">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="patronymicWith" class="form-label">Отчество</label>
+                    <input type="text" id="patronymicWith" name="patronymic" class="form-input" 
+                           placeholder="Иванович">
+                </div>
+                <div class="form-group">
+                    <label for="cityWith" class="form-label">Город пребывания</label>
+                    <input type="text" id="cityWith" name="city" class="form-input" 
+                           placeholder="Москва">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="birthDateWith" class="form-label">Дата рождения</label>
+                    <input type="text" id="birthDateWith" name="birthDate" class="form-input" 
+                           placeholder="01.01.1990">
+                </div>
+                <div class="form-group">
+                    <label for="birthPlaceWith" class="form-label">Место рождения</label>
+                    <input type="text" id="birthPlaceWith" name="birthPlace" class="form-input" 
+                           placeholder="г. Москва">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="instituteWith" class="form-label">Институт</label>
+                    <input type="text" id="instituteWith" name="institute" class="form-input" 
+                           placeholder="Московский государственный университет">
+                </div>
+                <div class="form-group">
+                    <label for="courseWith" class="form-label">Номер курса</label>
+                    <input type="text" id="courseWith" name="course" class="form-input" 
+                           placeholder="3">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="specialtyWith" class="form-label">Название специальности</label>
+                    <input type="text" id="specialtyWith" name="specialty" class="form-input" 
+                           placeholder="Прикладная информатика">
+                </div>
+                <div class="form-group">
+                    <label for="disciplineWith" class="form-label">Название дисциплины</label>
+                    <input type="text" id="disciplineWith" name="discipline" class="form-input" 
+                           placeholder="Айтрекинг в UX-исследованиях">
+                </div>
+            </div>
+        </div>
+
+        <button id="submitFormBtn" class="btn btn-primary" disabled>Далее →</button>
+    </main>
+</div>

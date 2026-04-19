@@ -1,0 +1,41 @@
+<div class="container">
+    <main class="card">
+        <h1 class="title">📝 Заполните анкету</h1>
+        
+        <div class="welcome-text">
+            <p>Пожалуйста, заполните форму ниже.</p>
+        </div>
+
+        <div class="participant-form" id="experimentForm" autocomplete="off">
+            <div class="form-group">
+                <label for="lastName" class="form-label">Фамилия</label>
+                <input type="text" id="lastName" name="lastName" class="form-input" 
+                       placeholder="Иванов" autocomplete="off" aria-autocomplete="none">
+            </div>
+
+            <div class="form-group">
+                <label for="firstName" class="form-label">Имя</label>
+                <input type="text" id="firstName" name="firstName" class="form-input" 
+                       placeholder="Иван" autocomplete="off" aria-autocomplete="none">
+            </div>
+
+            <div class="form-group">
+                <label for="patronymic" class="form-label">Отчество</label>
+                <input type="text" id="patronymic" name="patronymic" class="form-input" 
+                       placeholder="Иванович" autocomplete="off" aria-autocomplete="none">
+            </div>
+
+            <div class="form-group">
+                <label for="city" class="form-label">Город</label>
+                <input type="text" id="city" name="city" class="form-input" 
+                       placeholder="Москва" autocomplete="off" aria-autocomplete="none">
+            </div>
+        </div>
+
+        <button id="submitFormBtn" class="btn btn-primary" disabled>Далее</button>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Лаборатория визуальных исследований</p>
+    </footer>
+</div>

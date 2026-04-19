@@ -1,0 +1,168 @@
+<div class="container">
+    <main class="card">
+        <h1 class="title">Анкета 6/6</h1>
+        
+        <div class="welcome-text">
+            <p>Пожалуйста, заполните форму ниже.</p>
+        </div>
+
+        <!-- Прогресс-бар -->
+        <div class="progress-wrapper">
+            <div class="progress-text">
+                <span id="filledFields">0</span> / <span id="totalFields">20</span> полей заполнено
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="form-scroll-container">
+            <div class="participant-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="lastNameWith" class="form-label">Фамилия</label>
+                        <input type="text" id="lastNameWith" name="lastName" class="form-input" 
+                               placeholder="Иванов">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstNameWith" class="form-label">Имя</label>
+                        <input type="text" id="firstNameWith" name="firstName" class="form-input" 
+                               placeholder="Иван">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="patronymicWith" class="form-label">Отчество</label>
+                        <input type="text" id="patronymicWith" name="patronymic" class="form-input" 
+                               placeholder="Иванович">
+                    </div>
+                    <div class="form-group">
+                        <label for="cityWith" class="form-label">Город пребывания</label>
+                        <input type="text" id="cityWith" name="city" class="form-input" 
+                               placeholder="Москва">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="birthDateWith" class="form-label">Дата рождения</label>
+                        <input type="text" id="birthDateWith" name="birthDate" class="form-input" 
+                               placeholder="01.01.1990">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthPlaceWith" class="form-label">Место рождения</label>
+                        <input type="text" id="birthPlaceWith" name="birthPlace" class="form-input" 
+                               placeholder="г. Москва">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="instituteWith" class="form-label">Институт</label>
+                        <input type="text" id="instituteWith" name="institute" class="form-input" 
+                               placeholder="Московский государственный университет">
+                    </div>
+                    <div class="form-group">
+                        <label for="courseWith" class="form-label">Номер курса</label>
+                        <input type="text" id="courseWith" name="course" class="form-input" 
+                               placeholder="3">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="specialtyWith" class="form-label">Название специальности</label>
+                        <input type="text" id="specialtyWith" name="specialty" class="form-input" 
+                               placeholder="Прикладная информатика">
+                    </div>
+                    <div class="form-group">
+                        <label for="disciplineWith" class="form-label">Название дисциплины</label>
+                        <input type="text" id="disciplineWith" name="discipline" class="form-input" 
+                               placeholder="Айтрекинг в UX-исследованиях">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="emailWith" class="form-label">Email</label>
+                        <input type="email" id="emailWith" name="email" class="form-input" 
+                               placeholder="ivan@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneWith" class="form-label">Номер телефона</label>
+                        <input type="tel" id="phoneWith" name="phone" class="form-input" 
+                               placeholder="+7 (123) 456-78-90">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="educationFormWith" class="form-label">Форма обучения</label>
+                        <select id="educationFormWith" name="educationForm" class="form-input form-select">
+                            <option value="" disabled selected>Выберите форму обучения</option>
+                            <option value="full-time">Очная</option>
+                            <option value="part-time">Заочная</option>
+                            <option value="evening">Вечерняя</option>
+                            <option value="distance">Дистанционная</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="genderWith" class="form-label">Пол</label>
+                        <select id="genderWith" name="gender" class="form-input form-select">
+                            <option value="" disabled selected>Выберите пол</option>
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="educationLevelWith" class="form-label">Уровень образования</label>
+                        <select id="educationLevelWith" name="educationLevel" class="form-input form-select">
+                            <option value="" disabled selected>Выберите уровень</option>
+                            <option value="bachelor">Бакалавриат</option>
+                            <option value="master">Магистратура</option>
+                            <option value="postgraduate">Аспирантура</option>
+                            <option value="specialist">Специалитет</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="admissionYearWith" class="form-label">Год поступления</label>
+                        <input type="text" id="admissionYearWith" name="admissionYear" class="form-input" 
+                               placeholder="2020">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="graduationYearWith" class="form-label">Год выпуска</label>
+                        <input type="text" id="graduationYearWith" name="graduationYear" class="form-input" 
+                               placeholder="2024">
+                    </div>
+                    <div class="form-group">
+                        <label for="groupNumberWith" class="form-label">Номер группы</label>
+                        <input type="text" id="groupNumberWith" name="groupNumber" class="form-input" 
+                               placeholder="ИВТ-301">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="citizenshipWith" class="form-label">Гражданство</label>
+                        <input type="text" id="citizenshipWith" name="citizenship" class="form-input" 
+                               placeholder="Россия">
+                    </div>
+                    <div class="form-group">
+                        <label for="snilsWith" class="form-label">СНИЛС</label>
+                        <input type="text" id="snilsWith" name="snils" class="form-input" 
+                               placeholder="123-456-789 01">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="submitFormBtn" class="btn btn-primary" disabled>Далее →</button>
+    </main>
+</div>
